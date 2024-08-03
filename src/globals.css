@@ -35,6 +35,12 @@
   justify-content: center;
 }
 
+.img-block {
+  background-color: #5B00BB;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .card {
   margin: 5px;
   width: 100%;

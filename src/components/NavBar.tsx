@@ -18,13 +18,10 @@ function NavBar() {
                                 <a className="nav-link" aria-current="page" href="#">Sobre</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Produtos</a>
+                                <a className="nav-link" aria-current="page" href="#blocs">Produtos</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#">Compromissos</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Histórias</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav mb-2 mb-lg-0">
