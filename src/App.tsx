@@ -15,7 +15,7 @@ function App() {
       <div className="blocs">
         <div className="card">
           <div className="card-body">
-          <img className='img-block' src={Marta} alt="Logo Marta" width="250" height="60" />
+          <img className='img-block' src={Marta} alt="Logo Marta" width="200" height="60" />
             <h5 className="card-title">Marta Inteligência Imobiliária</h5>
             <h6 className="card-subtitle mb-2 text-body-secondary">Informação e inteligência para o mercado imobiliário acessível e em tempo real.</h6>
             <p className="card-text">Marta coleta e analisa dados de um ecossistema que tem mais de 20 anos de experiência construindo soluções para o mercado imobiliário. Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis, e informações detalhadas de centenas de milhares de empreendimentos e imóveis do mercado.</p>

@@ -39,6 +39,7 @@
   background-color: #5B00BB;
   padding: 10px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .card {
@@ -49,7 +50,7 @@
 }
 
 .card-title {
-  font-size: 3.2em;
+  font-size: 1.8em;
   margin-top: 30px;
   margin-bottom: 30px !important;
 }
