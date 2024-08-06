@@ -15,21 +15,21 @@ function App() {
       <div className="blocs">
         <div className="card">
           <div className="card-body">
-          <img className='img-block' src={Marta} alt="Logo Marta" width="200" height="60" />
+            <img className='img-block' src={Marta} alt="Logo Marta" width="200" height="60" />
             <h5 className="card-title">Marta Inteligência Imobiliária</h5>
             <h6 className="card-subtitle mb-2 text-body-secondary">Informação e inteligência para o mercado imobiliário acessível e em tempo real.</h6>
             <p className="card-text">Marta coleta e analisa dados de um ecossistema que tem mais de 20 anos de experiência construindo soluções para o mercado imobiliário. Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis, e informações detalhadas de centenas de milhares de empreendimentos e imóveis do mercado.</p>
-            <a target='_blank' href="https://deixacommarta.com.br/" className="btn btn-primary">Visitar produto <i className="bi bi-arrow-right-circle"></i></a>
           </div>
+          <a target='_blank' href="https://deixacommarta.com.br/" className="btn btn-primary">Visitar produto <i className="bi bi-arrow-right-circle"></i></a>
         </div>
         <div className="card">
           <div className="card-body">
-          <img className='img-block' src={Smart} alt="Logo Smart" width="250" height="60" />
+            <img className='img-block' src={Smart} alt="Logo Smart" width="250" height="60" />
             <h5 className="card-title">Smart Imobiliário</h5>
             <h6 className="card-subtitle mb-2 text-body-secondary">Sistema imobiliário completo com site de imóveis</h6>
             <p className="card-text">Criado para ajudar você a priorizar negócios, acompanhar seu desempenho e não perder oportunidades, Gestão inteligente de seus negócios, Aplicativo para Corretores e Imobiliárias, Anuncie seus imóveis e aumente a visibilidade de seu negócio!</p>
-            <a target='_blank' href="https://www.smartimobiliario.com.br/" className="btn btn btn-primary">Visitar produto <i className="bi bi-arrow-right-circle"></i></a>
           </div>
+          <a target='_blank' href="https://www.smartimobiliario.com.br/" className="btn btn btn-primary">Visitar produto <i className="bi bi-arrow-right-circle"></i></a>
         </div>
       </div>
     </div>

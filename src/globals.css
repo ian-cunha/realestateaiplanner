@@ -36,7 +36,7 @@
 }
 
 .img-block {
-  background-color: #5B00BB;
+  background-color: #242424;
   padding: 10px;
   border-radius: 10px;
   width: 100%;
@@ -105,6 +105,7 @@
 .btn-primary {
   background-color: #5B00BB !important;
   border-color: #5B00BB !important;
+  padding: 10px !important;
 }
 
 .btn-primary:hover {
@@ -120,6 +121,7 @@
   padding-right: 20px !important;
   padding-left: 20px !important;
 }
+
 .dropdown-item:active {
   background-color: #5B00BB !important;
 }
@@ -128,6 +130,7 @@
   .title {
     font-size: 3em;
   }
+
   .blocs {
     flex-direction: column;
   }
