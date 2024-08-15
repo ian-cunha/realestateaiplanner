@@ -126,9 +126,33 @@
   background-color: #5B00BB !important;
 }
 
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.icon-footer {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icon-footer:hover {
+  color: #5B00BB;
+}
+
 @media only screen and (max-width: 600px) {
   .title {
     font-size: 3em;
+  }
+
+  .footer-div {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
   }
 
   .blocs {
