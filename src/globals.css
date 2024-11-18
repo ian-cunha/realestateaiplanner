@@ -40,6 +40,7 @@
   padding: 10px;
   border-radius: 10px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -47,23 +48,26 @@
   width: 100%;
   text-align: center;
   padding: 24px;
+  background-color: #242424 !important;
 }
 
 .card-title {
   font-size: 1.8em;
   margin-top: 30px;
   margin-bottom: 30px !important;
+  color: rgb(245, 245, 245) !important;
 }
 
 .card-subtitle {
   font-size: 1.5em;
-  color: rgb(73, 73, 73);
+  color: rgb(245, 245, 245) !important;
+  text-align: left;
 }
 
 .card-text {
   font-size: 1.2em;
   text-align: justify;
-  color: rgb(73, 73, 73);
+  color: rgb(245, 245, 245);
 }
 
 .bg-white {
@@ -103,8 +107,8 @@
 }
 
 .btn-primary {
-  background-color: #5B00BB !important;
-  border-color: #5B00BB !important;
+  background-color: #ED5B00 !important;
+  border-color: #ED5B00 !important;
   padding: 10px !important;
 }
 
