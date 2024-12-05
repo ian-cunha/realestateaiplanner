@@ -30,7 +30,7 @@ function NavBar() {
                                     Todos os produtos
                                 </a>
                                 <ul className="dropdown-menu dropdown-menu-end">
-                                    <li><a className="dropdown-item" target='_blank' href="https://www.smartimobiliario.com.br/">RE.AI.s <i className="bi bi-arrow-right-circle"></i></a></li>
+                                    <li><a className="dropdown-item" target='_blank' href="https://www.reaisystems.com.br/">RE.AI.s <i className="bi bi-arrow-right-circle"></i></a></li>
                                     <li><a className="dropdown-item" target='_blank' href="https://deixacommarta.com.br/">Marta Inteligência Imobliária <i className="bi bi-arrow-right-circle"></i></a></li>
                                 </ul>
                             </li>
