@@ -1,45 +1,30 @@
-import Logo from '../assets/logo.svg'
+import { NavigationMenu, NavigationMenuItem, NavigationMenuList, NavigationMenuLink } from "@/components/ui/navigation-menu"
+import Logo from "../assets/logo.svg"
 
 function NavBar() {
-
-    return (
-        <>
-            <nav className="navbar navbar-expand-lg fixed-top bg-white">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        <img src={Logo} alt="Real Estate Ai Planner" width="100" />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            {/*<li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Sobre</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#blocs">Produtos</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Compromissos</a>
-                            </li>*/}
-                        </ul>
-                        <ul className="navbar-nav mb-2 mb-lg-0">
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Todos os produtos
-                                </a>
-                                <ul className="dropdown-menu dropdown-menu-end">
-                                    <li><a className="dropdown-item" target='_blank' href="https://www.reaisystems.com.br/">RE.AI.s <i className="bi bi-arrow-right-circle"></i></a></li>
-                                    <li><a className="dropdown-item" target='_blank' href="https://deixacommarta.com.br/">Marta Inteligência Imobliária <i className="bi bi-arrow-right-circle"></i></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </>
-    )
+  return (
+    <nav className="fixed top-0 left-0 w-full bg-white border-b z-50 px-6 md:px-20 py-3">
+      <div className="flex justify-between items-center">
+        <a href="#">
+          <img src={Logo} alt="Logo" className="h-10" />
+        </a>
+        <NavigationMenu>
+          <NavigationMenuList>
+            <NavigationMenuItem>
+              <NavigationMenuLink href="https://www.reaisystems.com.br/" target="_blank" className="px-4 py-2 hover:underline">
+                RE.AI.s
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink href="https://deixacommarta.com.br/" target="_blank" className="px-4 py-2 hover:underline">
+                Marta Inteligência
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
+      </div>
+    </nav>
+  )
 }
 
 export default NavBar
