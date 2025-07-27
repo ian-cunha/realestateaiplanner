@@ -9,7 +9,7 @@ function App() {
     <div className="max-w-7xl mx-auto px-6 md:px-20 py-32 space-y-24">
       <div className="space-y-6 text-center flex flex-col items-center">
         <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight">
-          Produtos úteis da <br /> Real Estate AI Planner
+          Produtos úteis da <br className="hidden lg:block" /><b>Real Estate AI Planner</b>
         </h1>
         <h2 className="text-lg md:text-xl text-muted-foreground max-w-3xl">
           Nós criamos inteligência sobre o mercado imobiliário, utilizando dados de um ecossistema cada vez maior e mais conectado, para auxiliar na tomada de decisões mais acertadas pelas melhores incorporadoras e construtoras.

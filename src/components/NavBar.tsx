@@ -18,7 +18,7 @@ function NavBar() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink href="https://deixacommarta.com.br/" aria-label="Marta Inteligência Imobiliária" target="_blank" className="px-4 py-2 hover:underline">
-                  Marta Int.
+                  Marta
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
